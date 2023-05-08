@@ -12,7 +12,7 @@
     line-height: 100px;
     color: #2A2929;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'TM Vinograd';
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .side_menu ul {
-    height: 100%;
+    height: 95%;
     list-style-type: none;
     margin: 0;
     margin-top: 3px;
@@ -45,16 +45,22 @@ body {
 }
 
 .side_menu li {
-    background-color: #CEFF44;
     width: 100%;
     height: 60px;
     margin-bottom: 3px;
     text-align: center;
     margin-left: -40px;
     line-height: 60px;
+    opacity: 100%;
+    
+}
+
+.side_menu li:hover{
+    opacity: 90%;
 }
 
 .side_menu li a{
+    color: #2A2929;
     font-size: 32px;
     font-family: 'TM Vinograd Filled';
     text-decoration: none;
