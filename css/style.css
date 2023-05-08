@@ -1,0 +1,77 @@
+.header {
+    background-color: #CF99FA;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header a {
+    line-height: 100px;
+    color: #2A2929;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'TM Vinograd';
+}
+
+body {
+    background-color: #2A2929;
+}
+
+.body_content {
+    margin-top: 100px;
+}
+
+.side_menu {
+    height: 100%;
+    width: 320px;
+    position:fixed;
+    left: 0;
+    
+}
+
+.side_menu ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 3px;
+    overflow-y: scroll;
+}
+
+.side_menu ul::-webkit-scrollbar {
+    display: none;
+}
+
+.side_menu li {
+    background-color: #CEFF44;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: -40px;
+    line-height: 60px;
+}
+
+
+.side_menu li a{
+    font-size: 32px;
+    font-family: 'TM Vinograd Filled';
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'TM Vinograd'; 
+    src: url("../fonts/TMVinograd-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: 'TM Vinograd Filled';
+    src: url("../fonts/TMVinograd-Filled.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
