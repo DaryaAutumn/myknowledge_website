@@ -57,6 +57,8 @@ body {
 
 .side_menu li:hover{
     opacity: 90%;
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in-out;
 }
 
 .side_menu li a{
