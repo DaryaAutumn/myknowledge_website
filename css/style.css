@@ -54,6 +54,7 @@ body {
     line-height: 60px;
 }
 
+
 .side_menu li a{
     font-size: 32px;
     font-family: 'TM Vinograd Filled';
@@ -72,4 +73,4 @@ body {
     src: url("../fonts/TMVinograd-Filled.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-} 
+
