@@ -20,11 +20,7 @@ Project is in process now so there must be more commits with essensial changes a
 
 2. Now you're ready to enter some commands! Go with 
 ```
-git status
-```
-Until it says "Your branch is up to date with 'main/main'" everything is okay, in other cases you should go with 
-```
 git pull
 ```
-
+This one will update the project.
 
