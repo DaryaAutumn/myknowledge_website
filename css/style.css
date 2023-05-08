@@ -61,7 +61,6 @@ body {
     text-decoration: none;
 }
 
-
 @font-face {
     font-family: 'TM Vinograd'; 
     src: url("../fonts/TMVinograd-Regular.ttf") format("truetype"); 
@@ -74,4 +73,4 @@ body {
     src: url("../fonts/TMVinograd-Filled.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-} 
+
